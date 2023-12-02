@@ -138,7 +138,7 @@ export default function Home() {
             top="0"
             left="0" zIndex={100} alignItems="center" justifyContent="space-between">
               <Box>
-              <a href="#"><Heading fontSize={['2xl']} pl="10px" color="#fbfbfb">RAHUL RAJ</Heading></a>
+              <Heading fontSize={['2xl']} pl="10px" color="#fbfbfb">RAHUL RAJ</Heading>
               </Box>
               <Box>
               <IconButton
