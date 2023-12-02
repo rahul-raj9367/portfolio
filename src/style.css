@@ -1,0 +1,44 @@
+
+.NAV{
+    max-width: 1900px; 
+    margin: 0 auto; 
+  }
+  .NAVV{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  
+.web{
+  font-size: 150px !important;
+}
+#span{
+  color:#bfd45e !important;
+}
+.talk{
+  font-size: 150px !important;
+}
+@media (min-width: 1000px) and (max-width: 1300px){
+  .web{
+    font-size: 100px !important;
+  }
+  .talk{
+    font-size: 100px !important;
+  }
+}
+@media (min-width: 700px) and (max-width: 999px){
+  .web{
+    font-size: 80px !important;
+  }
+  .talk{
+    font-size: 80px !important;
+  }
+}
+@media (min-width: 300px) and (max-width: 699px){
+  .web{
+    font-size: 40px !important;
+  }
+  .talk{
+    font-size: 40px !important;
+  }
+}
