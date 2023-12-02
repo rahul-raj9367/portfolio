@@ -138,7 +138,7 @@ export default function Home() {
             top="0"
             left="0" zIndex={100} alignItems="center" justifyContent="space-between">
               <Box>
-              <a href="/"><Heading fontSize={['2xl']} pl="10px" color="#fbfbfb">RAHUL RAJ</Heading></a>
+              <a href="#"><Heading fontSize={['2xl']} pl="10px" color="#fbfbfb">RAHUL RAJ</Heading></a>
               </Box>
               <Box>
               <IconButton
@@ -267,7 +267,7 @@ export default function Home() {
                   <Icon as={MdSettings} boxSize={[90]} color="#bfd45e"/>
                     <Stack mt='3' spacing='3'>
                       <Heading size='md' color="#fbfbfb">Deep Skill Set</Heading>
-                      <Text color="#fbfbfb">
+                      <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
                       Web developer with deep skills in creating efficient, stunning websites. Passionate about turning ideas into online experiences.
                       </Text>
                     </Stack>
@@ -285,7 +285,7 @@ export default function Home() {
                   <Icon as={PiSuitcaseSimpleLight} boxSize={90} color="#bfd45e" />
                     <Stack mt='3' spacing='3'>
                       <Heading size='md' color="#fbfbfb">Creative Work</Heading>
-                      <Text color="#fbfbfb">
+                      <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
                       I specialize in creating creative and unique user experiences, bringing innovation and flair to my work <br />
                       </Text>
                     </Stack>
@@ -304,7 +304,7 @@ export default function Home() {
                   <Icon as={LuHeartHandshake} boxSize={90} color="#bfd45e"/>
                     <Stack mt='3' spacing='3'>
                       <Heading size='md' color="#fbfbfb">Strong Dedication</Heading>
-                      <Text color="#fbfbfb">
+                      <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
                       I possess a strong dedication to my work, consistently striving for excellence and achieving goals with unwavering commitment
                       </Text>
                     </Stack>
