@@ -475,7 +475,7 @@ export default function Home() {
 
           <Box display="flex"   flexDir={["column","column","column","row","row"]} alignItems="center" justifyContent="center" gap={[5,,,5,20]} mt="50px">
             <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px"  border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-              <a href="https://rahul-raj9367.github.io/Portfolio/Resume.html" target='_blank'><Image src='images/resume.jpeg'  alt='tattoo' height={['430px']} width={['380px']} /></a> 
+              <a href="https://rahul-raj9367.github.io/portfolioo/Resume.html" target='_blank'><Image src='images/resume.jpeg'  alt='tattoo' height={['430px']} width={['380px']} /></a> 
               </Box>
               <a href="https://github.com/rahul-raj9367/Problem-Solving/tree/main" target='_blank'><Box p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 <Flex flexDir="column" align="center"  >
