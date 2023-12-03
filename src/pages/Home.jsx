@@ -87,7 +87,7 @@ export default function Home() {
             pr={["0px","0px","0px","50px","140px"]}
             display={["none","none","flex","flex","flex"]}
             gap={10}>
-              <Heading fontSize={['xl','xl','xl','xl','3xl']} color="#fbfbfb">RAHUL RAJ</Heading>
+              <Heading fontSize={['xl','xl','xl','xl','3xl']} color="#fbfbfb" className='rahul'>RAHUL RAJ</Heading>
 
               <Flex align="center" justifyContent="center">
               <List   display="flex" alignItems="center" justifyContent="center">
@@ -138,7 +138,7 @@ export default function Home() {
             top="0"
             left="0" zIndex={100} alignItems="center" justifyContent="space-between">
               <Box>
-              <a href="#"><Heading fontSize={['2xl']} pl="10px" color="#fbfbfb">RAHUL RAJ</Heading></a>
+              <a href="#"><Heading fontSize={['2xl']} pl="10px" color="#fbfbfb" className='rahul'>RAHUL RAJ</Heading></a>
               </Box>
               <Box>
               <IconButton
@@ -238,8 +238,8 @@ export default function Home() {
     </Flex>
           <Text position="absolute" color="#fbfbfb" display={["none","none","flex","flex"]} width={["230px","200px","200px","280px"]}  left={["24%","10%","13%","13%"]} top={["103%","70%","30%","30%","30%"]} fontSize={["sm","md","md","md"]} lineHeight="20px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
           
-          <Heading position="absolute" className='web'   color="#fbfbfb" left={["9%","13%","13%","13%","13%"]} top={["52%","45%","47%","40%"]} zIndex={90}>WEB</Heading>
-          <Heading position="absolute" className='web'  color="#fbfbfb" left={["30%","33%","33%","33%","33%"]} top={["70%","67%","67%","67%","67%"]} zIndex={90}>DEVELOPER</Heading>
+          <Heading position="absolute" className='web'   color="#fbfbfb" left={["9%","13%","13%","13%","13%"]} top={["54%","45%","47%","40%"]} zIndex={90}>WEB</Heading>
+          <Heading position="absolute" className='web'  color="#fbfbfb" left={["28%","33%","33%","33%","33%"]} top={["73%","67%","67%","67%","67%"]} zIndex={90}>DEVELOPER</Heading>
 
           <Box>
             <Center>

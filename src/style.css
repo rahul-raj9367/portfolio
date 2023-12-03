@@ -8,12 +8,17 @@
     align-items: center !important;
     justify-content: space-between !important;
   }
+  .rahul{
+    font-family: 'Nova Square', sans-serif !important;
+  }
   
 .web{
   font-size: 150px !important;
+  font-family: 'Lato', sans-serif !important;
 }
 #span{
   color:#bfd45e !important;
+  font-family: 'Nova Square', sans-serif !important;
 }
 .talk{
   font-size: 150px !important;
