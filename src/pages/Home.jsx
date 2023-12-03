@@ -429,7 +429,7 @@ export default function Home() {
           </Box>
 
           <Box display="flex" alignItems="center" justifyContent={["center","center","center","center","flex-start"]}>
-            <Text color="#fbfbfb" width={["90%","70%"]} pl={["0px","0px","0px","15px","0px"]} fontSize="xl"> A passionate Full Stack Developer. I love what I do, and I'm a dedicated and hardworking student currently in my final year at Einstein College of Engineering, pursuing BE in Electrical and Electronics. With a CGPA of 7.77, I bring a strong academic foundation and a genuine enthusiasm for creating innovative solutions through my work.</Text>
+            <Text color="#fbfbfb" width={["90%","70%"]} pl={["0px","0px","0px","15px","0px"]} fontSize="xl"> A Passionate Full Stack Developer. I love what I do, and I'm a dedicated and hardworking student currently in my final year at Einstein College of Engineering, pursuing BE in Electrical and Electronics. With a CGPA of 7.77, I bring a strong academic foundation and a genuine enthusiasm for creating innovative solutions through my work.</Text>
           </Box>
           </GridItem>
         </Grid>
