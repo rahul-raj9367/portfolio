@@ -75,7 +75,12 @@ export default function Contact() {
      }
    }, [isFormSubmitted]);
 
+   useEffect(() => {
+    document.title = 'Contact Us';
+  }, []);
+
   return (
+
     <Box>
         <Box className='NAV'  display="flex" mt="5%" alignItems="center"  justifyContent="center">
             <Box boxShadow='xl'  rounded='md' bg='white' width={["90%","90%","70%","60%","40%"]} p={["40px","50px"]} >
