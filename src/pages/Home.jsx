@@ -169,8 +169,8 @@ export default function Home() {
                   <Flex justifyContent="flex-end">
                       <IconButton
                       position="fixed"
-                      top="19"
-                      right="3"
+                      top="17"
+                      right="2"
                       aria-label="Close Menu"
                       fontSize='23px'
                       icon={<CloseIcon color="#fbfbfb"/>}
@@ -185,7 +185,7 @@ export default function Home() {
                               <Center>
                               <ListItem   mb="30px">
                               <a href="#">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['md','md','md','md','lg']} as='b' _hover={{ color:'#bfd45e' }} color="#fbfbfb">Home</Text>
+                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']} as='b' _hover={{ color:'#bfd45e' }} color="#fbfbfb">Home</Text>
                               </a>
                               </ListItem>
                               </Center>
@@ -193,7 +193,7 @@ export default function Home() {
                               <Center>
                               <ListItem   mb="30px">
                               <a href="#about">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['md','md','md','md','lg']} as='b' _hover={{ color:'#bfd45e' }} color="#fbfbfb">About</Text>
+                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']} as='b' _hover={{ color:'#bfd45e' }} color="#fbfbfb">About</Text>
                               </a>
 
                               </ListItem>
@@ -202,7 +202,7 @@ export default function Home() {
                               <Center>
                               <ListItem  mb="30px" >
                               <a href="#Skills">
-                                  <Text onClick={()=>ChangeDisplayy('none')} fontSize={['md','md','md','md','lg']} as='b' _hover={{ color:'#bfd45e' }}  color="#fbfbfb">Skills</Text>
+                                  <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']} as='b' _hover={{ color:'#bfd45e' }}  color="#fbfbfb">Skills</Text>
                               </a>
                                   </ListItem>
                               </Center>
@@ -210,7 +210,7 @@ export default function Home() {
                               <Center>
                               <ListItem   mb="30px">
                               <a href="#project">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['md','md','md','md','lg']}  as='b' _hover={{ color:'#bfd45e' }}  color="#fbfbfb">Project</Text>
+                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']}  as='b' _hover={{ color:'#bfd45e' }}  color="#fbfbfb">Project</Text>
                               </a>
 
                               </ListItem>
@@ -220,7 +220,7 @@ export default function Home() {
                               <Center>
                               <ListItem  mb="30px">
                               <a href="#contact">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['md','md','md','md','lg']}  as='b'  color="#fbfbfb" _hover={{ color:'#bfd45e' }}>Contact</Text>
+                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']}  as='b'  color="#fbfbfb" _hover={{ color:'#bfd45e' }}>Contact</Text>
                               </a>
                               </ListItem>
                               </Center>
