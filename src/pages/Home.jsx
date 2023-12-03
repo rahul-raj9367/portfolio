@@ -512,7 +512,7 @@ export default function Home() {
          </Center>
 
         <Center>
-          <Flex align="center" justify="center" mt="50px" gap={4}>
+          <Flex align="center" justify="center" mt="50px" gap={[2,4,4,4]}>
             <Heading color="#fbfbfb" className='talk' data-aos="zoom-in"> Let's</Heading>
             <Box border="2px solid #bfd45e" p="10px" borderRadius='50% '  data-aos="zoom-in-up">
             <Image borderRadius='50%'  boxSize={['150px','150px','150px','200px','250px']} src='images/rahulraj.png' bg="#ffff"  alt='Dan Abramov' />

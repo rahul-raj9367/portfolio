@@ -39,11 +39,19 @@
     font-size: 80px !important;
   }
 }
-@media (min-width: 300px) and (max-width: 699px){
+@media (min-width: 341px) and (max-width: 699px){
   .web{
     font-size: 40px !important;
   }
   .talk{
     font-size: 40px !important;
+  }
+}
+@media (min-width: 100px) and (max-width: 340px){
+  .web{
+    font-size: 40px !important;
+  }
+  .talk{
+    font-size: 30px !important;
   }
 }
