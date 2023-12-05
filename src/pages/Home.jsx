@@ -71,7 +71,7 @@ export default function Home() {
     <Box bg="#000000" height="100%" >
 
     {/* Navbar and WEB DEVELOPER */}
-    <Box className='NAV'  position="relative" pt={["55px","55px","0px"]} mb={["120px","50px","50px","50px"]}>
+    <Box className='NAV'  position="relative" pt={["55px","55px","0px"]} mb={["120px","80px","80px","50px"]}>
       
 
     <Flex  pt="20px" className='NAVV' as="nav" >
@@ -238,18 +238,18 @@ export default function Home() {
     </Flex>
           <Text position="absolute" color="#fbfbfb" display={["none","none","flex","flex"]} width={["230px","200px","200px","280px"]}  left={["24%","10%","13%","13%"]} top={["103%","70%","30%","30%","30%"]} fontSize={["sm","md","md","md"]} lineHeight="20px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
           
-          <Heading position="absolute" className='web'   color="#fbfbfb" left={["9%","13%","13%","13%","13%"]} top={["54%","45%","47%","40%"]} zIndex={90}>WEB</Heading>
-          <Heading position="absolute" className='web'  color="#fbfbfb" left={["28%","33%","33%","33%","33%"]} top={["73%","67%","67%","67%","67%"]} zIndex={90}>DEVELOPER</Heading>
+          <Heading position="absolute" className='web'   color="#fbfbfb" left={["9%","13%","13%","13%","13%"]} top={["54%","54%","47%","40%"]} zIndex={90}>WEB</Heading>
+          <Heading position="absolute" className='web'  color="#fbfbfb" left={["28%","33%","33%","33%","33%"]} top={["73%","73%","73%","70%","67%"]} zIndex={90}>DEVELOPER</Heading>
 
           <Box>
             <Center>
-              <Image mt={["","","50px","20px"]} src='images/rahul.png' borderRadius="100%" boxShadow='xs' bg='#1da1f2'  alt='rahul' w={["100%","65%","70%","65%","65%","65%"]} />
+              <Image mt={["","","50px","20px"]} src='images/rahul.png' borderRadius="100%" boxShadow='xs' bg='#1da1f2'  alt='rahul' w={["100%","90%","80%","65%","65%","65%"]} />
             </Center>
           </Box>
 
           <Center>
               <Text  position="absolute" mt="90px" color="#fbfbfb" display={["flex","flex","none","none"]} width={["60%"]}  fontSize={["sm","md","md","md"]} lineHeight="20px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
-            </Center>
+          </Center>
 
 
     </Box>
@@ -586,7 +586,7 @@ export default function Home() {
         <Center>
           <NavLink>
             <Link to="/Contact">
-                 <Button mt="25px" mb="25px" _hover={{ bg:'#1da1f2', color: 'black' }} size={["lg"]} pt="30px" pb="30px"  bg='#1da1f2' pr={["92px","260px"]} pl={["92px","260px"]} data-aos="zoom-in-down" data-aos-delay="10"  borderRadius="50px">Write A Message</Button>
+                 <Button mt="25px" mb="25px" _hover={{ bg:'#1da1f2', color: 'black' }} className='r' size={["lg"]} pt="30px" pb="30px"  bg='#1da1f2' pr={["90px","92px","260px","260px"]} pl={["90px","92px","260px","260px"]} data-aos="zoom-in-down" data-aos-delay="10"  borderRadius="50px">Write A Message</Button>
             </Link>
           </NavLink>
           

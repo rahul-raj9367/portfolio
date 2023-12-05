@@ -39,7 +39,7 @@
     font-size: 80px !important;
   }
 }
-@media (min-width: 341px) and (max-width: 699px){
+@media (min-width: 341px) and (max-width: 500px){
   .web{
     font-size: 40px !important;
   }
@@ -47,11 +47,33 @@
     font-size: 40px !important;
   }
 }
-@media (min-width: 100px) and (max-width: 340px){
+@media (min-width: 200px) and (max-width: 299px){
+  .web{
+    font-size: 30px !important;
+  }
+  .talk{
+    font-size: 30px !important;
+  }
+}
+@media (min-width: 501px) and (max-width: 699px){
+  .web{
+    font-size: 55px !important;
+  }
+  .talk{
+    font-size: 40px !important;
+  }
+}
+@media (min-width: 300px) and (max-width: 340px){
   .web{
     font-size: 40px !important;
   }
   .talk{
     font-size: 30px !important;
+  }
+}
+@media (min-width: 200px) and (max-width: 299px){
+  .r{
+    padding-left: 70px !important;
+    padding-right: 70px !important;
   }
 }
