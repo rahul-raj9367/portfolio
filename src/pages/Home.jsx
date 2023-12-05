@@ -125,7 +125,7 @@ export default function Home() {
               <Flex >
               <NavLink>
                 <Link to="/Contact">
-                  <Button rightIcon={<ArrowForwardIcon />} fontSize={['md','md','md','md','lg']} _hover={{ bg:'#bfd45e', color: 'black' }}   bg=' #1da1f2' p={["15px","15px","10px","10px","20px"]}  borderRadius="50px">Lets Talk</Button>
+                  <Button rightIcon={<ArrowForwardIcon />} fontSize={['md','md','md','md','lg']} _hover={{ bg:'#1da1f2', color: 'black' }}   bg=' #1da1f2' p={["15px","15px","10px","10px","20px"]}  borderRadius="50px">Lets Talk</Button>
                 </Link>
               </NavLink>
               </Flex>
