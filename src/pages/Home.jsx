@@ -647,7 +647,7 @@ export default function Home() {
 
           <Center>
             
-          <a href="https://wa.me/9367747439"  target="_blank"><Flex mt="20px"  display={["flex","flex","none","none"]} gap={[4,4,8,10,20]}>
+          <a href="https://wa.me/9367747439"  target="_blank"><Flex mt="20px"  display={["flex","flex","none","none"]} gap={[2,2,8,10,20]}>
             <Icon as={BsWhatsapp} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Whatsapp</Text>
 
