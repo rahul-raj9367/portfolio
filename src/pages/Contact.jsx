@@ -152,7 +152,7 @@ export default function Contact() {
                 </FormControl>
 
                 <Box mt="20px">
-                <Button  _hover={{ bg:'#bfd45e', color: 'black' }}  bg='#4169E1' w={["100%"]}  type="submit" >Submit</Button>
+                <Button  _hover={{ bg:'#bfd45e', color: 'black' }}  bg='#1da1f2' w={["100%"]}  type="submit" >Submit</Button>
                 </Box>
                 </form>
               {/* <Center>
