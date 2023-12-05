@@ -125,7 +125,7 @@ export default function Home() {
               <Flex >
               <NavLink>
                 <Link to="/Contact">
-                  <Button rightIcon={<ArrowForwardIcon />} fontSize={['md','md','md','md','lg']} _hover={{ bg:'#bfd45e', color: 'black' }}   bg=' #00CCFF' p={["15px","15px","10px","10px","20px"]}  borderRadius="50px">Lets Talk</Button>
+                  <Button rightIcon={<ArrowForwardIcon />} fontSize={['md','md','md','md','lg']} _hover={{ bg:'#bfd45e', color: 'black' }}   bg=' #1da1f2' p={["15px","15px","10px","10px","20px"]}  borderRadius="50px">Lets Talk</Button>
                 </Link>
               </NavLink>
               </Flex>
@@ -243,7 +243,7 @@ export default function Home() {
 
           <Box>
             <Center>
-              <Image mt={["","","50px","20px"]} src='images/rahul.png' borderRadius="100%" boxShadow='xs' bg='#00CCFF'  alt='rahul' w={["100%","65%","70%","65%","65%","65%"]} />
+              <Image mt={["","","50px","20px"]} src='images/rahul.png' borderRadius="100%" boxShadow='xs' bg='#1da1f2'  alt='rahul' w={["100%","65%","70%","65%","65%","65%"]} />
             </Center>
           </Box>
 
@@ -264,7 +264,7 @@ export default function Home() {
               <Center>
                 <Card maxW={['xs','sm']} bg="#131313">
                   <CardBody>
-                  <Icon as={MdSettings} boxSize={[90]} color="#00CCFF"/>
+                  <Icon as={MdSettings} boxSize={[90]} color="#1da1f2"/>
                     <Stack mt='3' spacing='3'>
                       <Heading size='md' color="#fbfbfb">Deep Skill Set</Heading>
                       <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
@@ -282,7 +282,7 @@ export default function Home() {
                 <Center>
                 <Card  maxW={['xs','sm',]} bg="#131313">
                   <CardBody>
-                  <Icon as={PiSuitcaseSimpleLight} boxSize={90} color="#00CCFF" />
+                  <Icon as={PiSuitcaseSimpleLight} boxSize={90} color="#1da1f2" />
                     <Stack mt='3' spacing='3'>
                       <Heading size='md' color="#fbfbfb">Creative Work</Heading>
                       <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
@@ -301,7 +301,7 @@ export default function Home() {
                 <Center>
                 <Card  maxW={['xs','sm']} bg="#131313">
                   <CardBody>
-                  <Icon as={LuHeartHandshake} boxSize={90} color="#00CCFF"/>
+                  <Icon as={LuHeartHandshake} boxSize={90} color="#1da1f2"/>
                     <Stack mt='3' spacing='3'>
                       <Heading size='md' color="#fbfbfb">Strong Dedication</Heading>
                       <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
@@ -414,7 +414,7 @@ export default function Home() {
         <Grid  templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']}  pt="50px" >
           <GridItem w="100%" h="100%">
             <Center>
-            <Box border="2px solid #00CCFF" p="10px" borderRadius='50%'  data-aos="fade-right"
+            <Box border="2px solid #1da1f2" p="10px" borderRadius='50%'  data-aos="fade-right"
      data-aos-offset="100"
      data-aos-easing="ease-in-sine">
             <Image  borderRadius='50%' boxSize={['300px','300px','300px','400px','450px']} src='images/ra.jpg' bg="#ffff"  alt='Dan Abramov' />
@@ -480,7 +480,7 @@ export default function Home() {
               <a href="https://github.com/rahul-raj9367/Problem-Solving/tree/main" target='_blank'><Box p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 <Flex flexDir="column" align="center"  >
                 <Heading mt="10px" fontSize="lg">100 Days Coding Completed</Heading>
-                <Icon  mt="20px" mb="20px" as={FaCheckCircle } boxSize={180} color="#00CCFF"/>
+                <Icon  mt="20px" mb="20px" as={FaCheckCircle } boxSize={180} color="#1da1f2"/>
                 </Flex>
                   </Box>
               </a>
@@ -488,7 +488,7 @@ export default function Home() {
           </Box>
 
           <Center>
-          <a href="https://www.youtube.com/channel/UC2NvX4WgLdhHCrLAPdUwVLg" target='_blank'><Button mt="50px" rightIcon={<ArrowForwardIcon size="20px" />} _hover={{ bg:'#00CCFF', color: 'black' }} fontSize="xl"  bg='#00CCFF' p="25px" pl="25px" pr="15px" borderRadius="50px">See More</Button></a>
+          <a href="https://www.youtube.com/channel/UC2NvX4WgLdhHCrLAPdUwVLg" target='_blank'><Button mt="50px" rightIcon={<ArrowForwardIcon size="20px" />} _hover={{ bg:'#1da1f2', color: 'black' }} fontSize="xl"  bg='#1da1f2' p="25px" pl="25px" pr="15px" borderRadius="50px">See More</Button></a>
           </Center>
 
 
@@ -514,7 +514,7 @@ export default function Home() {
         <Center>
           <Flex align="center" justify="center" mt="50px" gap={[2,4,4,4]}>
             <Heading color="#fbfbfb" className='talk' data-aos="zoom-in"> Let's</Heading>
-            <Box border="2px solid #00CCFF" p="10px" borderRadius='50% '  data-aos="zoom-in-up">
+            <Box border="2px solid #1da1f2" p="10px" borderRadius='50% '  data-aos="zoom-in-up">
             <Image borderRadius='50%'  boxSize={['150px','150px','150px','200px','250px']} src='images/rahulraj.png' bg="#ffff"  alt='Dan Abramov' />
             </Box>
             
@@ -527,7 +527,7 @@ export default function Home() {
         <Center>
           <Flex display={["none","none","flex","flex"]} gap={[6,6,10,16,20]} mt="30px">
           <a href="https://www.linkedin.com/in/rahul-rajj/" target='_blank'><Flex gap={2}>
-              <Icon as={FaLinkedin} boxSize={6} color="#00CCFF"/> 
+              <Icon as={FaLinkedin} boxSize={6} color="#1da1f2"/> 
               <Text color="#fbfbfb">LinkedIn</Text>
             </Flex></a>
             <Center height='25px'>
@@ -535,7 +535,7 @@ export default function Home() {
             </Center>
           
             <a href="https://github.com/rahul-raj9367" target='_blank'><Flex gap={2}>
-            <Icon as={FaGithub} boxSize={6} color="#00CCFF"/> 
+            <Icon as={FaGithub} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Github</Text>
           </Flex></a>
 
@@ -544,7 +544,7 @@ export default function Home() {
             </Center>
           
             <a href="tel:+919025957223" cursor="pointer"><Flex gap={2}>
-            <Icon as={LuPhoneCall} boxSize={6} color="#00CCFF"/> 
+            <Icon as={LuPhoneCall} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">+91 9025957223</Text>
           </Flex></a>
           
@@ -557,7 +557,7 @@ export default function Home() {
         <Center>
           <Flex display={["flex","flex","none","none"]}  gap={[6,6,10,16,20]} mt="30px">
           <a href="https://www.linkedin.com/in/rahul-rajj/" target='_blank'><Flex gap={2}>
-              <Icon as={FaLinkedin} boxSize={6} color="#00CCFF"/> 
+              <Icon as={FaLinkedin} boxSize={6} color="#1da1f2"/> 
               <Text color="#fbfbfb">LinkedIn</Text>
             </Flex></a>
             <Center height='25px'>
@@ -565,7 +565,7 @@ export default function Home() {
             </Center>
           
             <a href="https://github.com/rahul-raj9367" target='_blank'><Flex gap={2}>
-            <Icon as={FaGithub} boxSize={6} color="#00CCFF"/> 
+            <Icon as={FaGithub} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Github</Text>
           </Flex></a>
 
@@ -578,7 +578,7 @@ export default function Home() {
 
         <Center>
         <a href="tel:+919025957223" cursor="pointer" ><Flex display={["flex","flex","none","none"]} mt="20px" gap={2}>
-            <Icon as={LuPhoneCall} boxSize={6} color="#00CCFF"/> 
+            <Icon as={LuPhoneCall} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">+91 9025957223</Text>
           </Flex></a>
         </Center>
@@ -586,7 +586,7 @@ export default function Home() {
         <Center>
           <NavLink>
             <Link to="/Contact">
-                 <Button mt="25px" mb="25px" _hover={{ bg:'#00CCFF', color: 'black' }} size={["lg"]} pt="30px" pb="30px"  bg='#00CCFF' pr={["92px","260px"]} pl={["92px","260px"]} data-aos="zoom-in-down" data-aos-delay="10"  borderRadius="50px">Write A Message</Button>
+                 <Button mt="25px" mb="25px" _hover={{ bg:'#1da1f2', color: 'black' }} size={["lg"]} pt="30px" pb="30px"  bg='#1da1f2' pr={["92px","260px"]} pl={["92px","260px"]} data-aos="zoom-in-down" data-aos-delay="10"  borderRadius="50px">Write A Message</Button>
             </Link>
           </NavLink>
           
@@ -595,7 +595,7 @@ export default function Home() {
         <Center>
           <Flex display={["none","none","flex","flex"]} gap={[6,6,8,10,20]}>
           <a href="mailto: rahulselvan0810@gmail.com" target="_blank"><Flex gap={1}>
-              <Icon as={SiGmail} boxSize={6} color="#00CCFF"/> 
+              <Icon as={SiGmail} boxSize={6} color="#1da1f2"/> 
               <Text color="#fbfbfb">rahulselvan0810@gmail.com</Text>
             </Flex></a>
 
@@ -604,7 +604,7 @@ export default function Home() {
             </Center>
           
             <a href="https://wa.me/9367747439"  target="_blank"><Flex gap={2}>
-            <Icon as={BsWhatsapp} boxSize={6} color="#00CCFF"/> 
+            <Icon as={BsWhatsapp} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Whatsapp</Text>
           </Flex></a>
 
@@ -613,7 +613,7 @@ export default function Home() {
             </Center>
           
           <a href="https://www.instagram.com/rahul_raj9367/" target='_blank'><Flex gap={2}>
-            <Icon as={GrInstagram} boxSize={6} color="#00CCFF"/> 
+            <Icon as={GrInstagram} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Instagram</Text>
           </Flex></a>
 
@@ -622,7 +622,7 @@ export default function Home() {
             </Center>
 
           <a href="https://www.youtube.com/channel/UC2NvX4WgLdhHCrLAPdUwVLg" target='_blank'><Flex gap={2}>
-            <Icon as={FaYoutube} boxSize={6} color="#00CCFF"/> 
+            <Icon as={FaYoutube} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Youtube</Text>
           </Flex></a>
           
@@ -634,7 +634,7 @@ export default function Home() {
         <Center>
           <Flex display={["flex","flex","none","none"]} gap={[4,4,8,10,20]}>
           <a href="mailto: rahulselvan0810@gmail.com" target="_blank"><Flex gap={1}>
-              <Icon as={SiGmail} boxSize={6} color="#00CCFF"/> 
+              <Icon as={SiGmail} boxSize={6} color="#1da1f2"/> 
               <Text color="#fbfbfb">rahulselvan0810@gmail.com</Text>
             </Flex></a>
             <Center height='25px'>
@@ -647,8 +647,8 @@ export default function Home() {
 
           <Center>
             
-          <a href="https://wa.me/9367747439"  target="_blank"><Flex mt="20px"  display={["flex","flex","none","none"]} gap={[2,2,8,10,20]}>
-            <Icon as={BsWhatsapp} boxSize={6} color="#00CCFF"/> 
+          <a href="https://wa.me/9367747439"  target="_blank"><Flex mt="20px"  display={["flex","flex","none","none"]} gap={[4,4,8,10,20]}>
+            <Icon as={BsWhatsapp} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Whatsapp</Text>
 
             <Center height='25px'>
@@ -662,7 +662,7 @@ export default function Home() {
           <Flex display={["flex","flex","none","none"]}  gap={[4,4,8,10,20]} mt="20px">
           
           <a href="https://www.instagram.com/rahul_raj9367/" target='_blank'><Flex gap={2}>
-            <Icon as={GrInstagram} boxSize={6} color="#00CCFF"/> 
+            <Icon as={GrInstagram} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Instagram</Text>
           </Flex></a>
 
@@ -671,7 +671,7 @@ export default function Home() {
             </Center>
 
           <a href="https://www.youtube.com/channel/UC2NvX4WgLdhHCrLAPdUwVLg" target='_blank'><Flex  gap={2}>
-            <Icon as={FaYoutube} boxSize={6} color="#00CCFF"/> 
+            <Icon as={FaYoutube} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Youtube</Text>
           </Flex></a>
           </Flex>
@@ -688,7 +688,7 @@ export default function Home() {
         <Center>
           <Flex gap={1} mb="5px" mt="10px" >
           <Text pb="10px" color="#fbfbfb">Made With </Text>
-          <Icon as={FaHeart} boxSize={6} color="#00CCFF"/>
+          <Icon as={FaHeart} boxSize={6} color="#1da1f2"/>
           <Text color="#fbfbfb">by Rahul Raj</Text>
           </Flex>
         </Center>
@@ -702,8 +702,8 @@ export default function Home() {
       boxSize={[8]}
       p="25px"
       borderRadius="70%"
-      bg="#00CCFF"
-      _hover={{ bg:'#00CCFF', color: 'black' }}
+      bg="#1da1f2"
+      _hover={{ bg:'#1da1f2', color: 'black' }}
       display={["none","none","flex","flex"]}
       icon={<ArrowUpIcon  boxSize={[8,8,8,8,12]}  color="black" />}
       ></IconButton>
