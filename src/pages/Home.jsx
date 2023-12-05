@@ -93,28 +93,28 @@ export default function Home() {
               <List   display="flex" alignItems="center" justifyContent="center">
                     <ListItem  mr={["30px","30px","25px","40px"]} mt="3px">
                     <a href="#">
-                        <Text fontSize={['md','md','md','md','lg']} as='b' _hover={{ color:'#bfd45e' }}  color="#fbfbfb">Home</Text>
+                        <Text fontSize={['md','md','md','md','lg']} as='b' _hover={{ color:'#4169E1' }}  color="#fbfbfb">Home</Text>
                         </a>
                     </ListItem>
                     <ListItem  mr={["30px","30px","25px","40px"]} mt="3px">
                         <a href="#about">
-                        <Text fontSize={['md','md','md','md','lg']} as='b' _hover={{ color:'#bfd45e' }} color="#fbfbfb">About</Text>
+                        <Text fontSize={['md','md','md','md','lg']} as='b' _hover={{ color:'#4169E1' }} color="#fbfbfb">About</Text>
                         </a>
                     </ListItem>
                      <ListItem   mr={["30px","30px","25px","40px"]} mt="3px">
                      <a href="#skills">
-                       <Text fontSize={['md','md','md','md','lg']} as='b' _hover={{ color:'#bfd45e' }}  color="#fbfbfb">Skills</Text>
+                       <Text fontSize={['md','md','md','md','lg']} as='b' _hover={{ color:'#4169E1' }}  color="#fbfbfb">Skills</Text>
                       </a>
                     </ListItem>
                     <ListItem   mr={["30px","30px","25px","40px"]} mt="3px">
                         <a href="#project">
-                        <Text fontSize={['md','md','md','md','lg']}  as='b' _hover={{ color:'#bfd45e' }}  color="#fbfbfb">Project</Text>
+                        <Text fontSize={['md','md','md','md','lg']}  as='b' _hover={{ color:'#4169E1' }}  color="#fbfbfb">Project</Text>
                         </a>
                     </ListItem>
                    
                     <ListItem   mr={["30px","30px","25px","40px"]} mt="3px">
                     <a href="#contact">
-                        <Text  fontSize={['md','md','md','md','lg']}  as='b'  color="#fbfbfb" _hover={{ color:'#bfd45e' }}>Contact</Text>
+                        <Text  fontSize={['md','md','md','md','lg']}  as='b'  color="#fbfbfb" _hover={{ color:'#4169E1' }}>Contact</Text>
                         </a>
                     </ListItem>
             </List>
@@ -185,7 +185,7 @@ export default function Home() {
                               <Center>
                               <ListItem   mb="30px">
                               <a href="#">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']} as='b' _hover={{ color:'#bfd45e' }} color="#fbfbfb">Home</Text>
+                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']} as='b' _hover={{ color:'#4169E1' }} color="#fbfbfb">Home</Text>
                               </a>
                               </ListItem>
                               </Center>
@@ -193,7 +193,7 @@ export default function Home() {
                               <Center>
                               <ListItem   mb="30px">
                               <a href="#about">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']} as='b' _hover={{ color:'#bfd45e' }} color="#fbfbfb">About</Text>
+                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']} as='b' _hover={{ color:'#4169E1' }} color="#fbfbfb">About</Text>
                               </a>
 
                               </ListItem>
@@ -202,7 +202,7 @@ export default function Home() {
                               <Center>
                               <ListItem  mb="30px" >
                               <a href="#Skills">
-                                  <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']} as='b' _hover={{ color:'#bfd45e' }}  color="#fbfbfb">Skills</Text>
+                                  <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']} as='b' _hover={{ color:'#4169E1' }}  color="#fbfbfb">Skills</Text>
                               </a>
                                   </ListItem>
                               </Center>
@@ -210,7 +210,7 @@ export default function Home() {
                               <Center>
                               <ListItem   mb="30px">
                               <a href="#project">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']}  as='b' _hover={{ color:'#bfd45e' }}  color="#fbfbfb">Project</Text>
+                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']}  as='b' _hover={{ color:'#4169E1' }}  color="#fbfbfb">Project</Text>
                               </a>
 
                               </ListItem>
@@ -220,7 +220,7 @@ export default function Home() {
                               <Center>
                               <ListItem  mb="30px">
                               <a href="#contact">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']}  as='b'  color="#fbfbfb" _hover={{ color:'#bfd45e' }}>Contact</Text>
+                              <Text onClick={()=>ChangeDisplayy('none')} fontSize={['xl','lg','lg','md','lg']}  as='b'  color="#fbfbfb" _hover={{ color:'#4169E1' }}>Contact</Text>
                               </a>
                               </ListItem>
                               </Center>
