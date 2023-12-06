@@ -243,7 +243,7 @@ export default function Home() {
 
           <Box>
             <Center>
-              <Image mt={["","","50px","20px"]} src='images/rahul.png' borderRadius="100%" boxShadow='xs' bg='#1da1f2'  alt='rahul' w={["100%","90%","80%","65%","65%","65%"]} />
+              <Image  loading="lazy" mt={["","","50px","20px"]} src='images/rahul.png' borderRadius="100%" boxShadow='xs' bg='#1da1f2'  alt='rahul' w={["100%","90%","80%","65%","65%","65%"]} />
             </Center>
           </Box>
 
@@ -417,7 +417,7 @@ export default function Home() {
             <Box border="2px solid #1da1f2" p="10px" borderRadius='50%'  data-aos="fade-right"
      data-aos-offset="100"
      data-aos-easing="ease-in-sine">
-            <Image  borderRadius='50%' boxSize={['300px','300px','300px','400px','450px']} src='images/ra.jpg' bg="#ffff"  alt='Dan Abramov' />
+            <Image  borderRadius='50%' boxSize={['300px','300px','300px','400px','450px']} src='images/ra.jpg' bg="#ffff"   alt='rahul' />
             </Box>
             </Center>
 
@@ -515,7 +515,7 @@ export default function Home() {
           <Flex align="center" justify="center" mt="50px" gap={[2,4,4,4]}>
             <Heading color="#fbfbfb" className='talk' data-aos="zoom-in"> Let's</Heading>
             <Box border="2px solid #1da1f2" p="10px" borderRadius='50% '  data-aos="zoom-in-up">
-            <Image borderRadius='50%'  boxSize={['150px','150px','150px','200px','250px']} src='images/rahulraj.png' bg="#ffff"  alt='Dan Abramov' />
+            <Image borderRadius='50%'  boxSize={['150px','150px','150px','200px','250px']} src='images/rahulraj.png' bg="#ffff"   alt='rahul' />
             </Box>
             
             <Heading color="#fbfbfb" className='talk' data-aos="zoom-in">Talk</Heading>
