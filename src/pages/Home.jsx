@@ -246,7 +246,6 @@ export default function Home() {
               <Image  loading="lazy" mt={["10px","","50px","20px"]} src='images/rahul.png' borderRadius="100%" boxShadow='xs' bg='#1da1f2'  alt='rahul' w={["94%","70%","65%","50%","50%","40%"]} />
             </Center>
           </Box>
-
           <Center>
               <Text  position="absolute" mt="90px" color="#fbfbfb" display={["flex","flex","none","none"]} width={["60%"]}  fontSize={["sm","md","md","md"]} lineHeight="20px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
           </Center>
