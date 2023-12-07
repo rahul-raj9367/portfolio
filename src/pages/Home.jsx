@@ -236,14 +236,14 @@ export default function Home() {
 
             
     </Flex>
-          <Text position="absolute" color="#fbfbfb" display={["none","none","flex","flex"]} width={["230px","200px","200px","280px"]}  left={["24%","10%","13%","13%"]} top={["103%","70%","30%","30%","30%"]} fontSize={["sm","md","md","md"]} lineHeight="20px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
+          <Text position="absolute" color="#fbfbfb" display={["none","none","flex","flex"]} width={["230px","200px","190px","250px"]}  left={["24%","10%","9%","12%","17%","20%"]} top={["103%","70%","40%","37%","40%"]} fontSize={["sm","md","md","md"]} lineHeight="20px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
           
-          <Heading position="absolute" className='web'   color="#fbfbfb" left={["9%","13%","13%","13%","13%"]} top={["54%","54%","47%","40%"]} zIndex={90}>WEB</Heading>
-          <Heading position="absolute" className='web'  color="#fbfbfb" left={["28%","33%","33%","33%","33%"]} top={["73%","73%","73%","70%","67%"]} zIndex={90}>DEVELOPER</Heading>
+          <Heading position="absolute" className='web'   color="#fbfbfb" left={["1%","9%","9%","12%","17%","20%"]} top={["66%","66%","55%","50%"]} zIndex={90}>WEB</Heading>
+          <Heading position="absolute" className='web'  color="#fbfbfb" left={["21%","25%","27%","27%","33%"]} top={["80%","80%","78%","78%","76%"]} zIndex={90}>DEVELOPER</Heading>
 
           <Box>
             <Center>
-              <Image  loading="lazy" mt={["","","50px","20px"]} src='images/rahul.png' borderRadius="100%" boxShadow='xs' bg='#1da1f2'  alt='rahul' w={["100%","90%","80%","65%","65%","65%"]} />
+              <Image  loading="lazy" mt={["10px","","50px","20px"]} src='images/rahul.png' borderRadius="100%" boxShadow='xs' bg='#1da1f2'  alt='rahul' w={["94%","70%","65%","50%","50%","40%"]} />
             </Center>
           </Box>
 
@@ -417,7 +417,7 @@ export default function Home() {
             <Box border="2px solid #1da1f2" p="10px" borderRadius='50%'  data-aos="fade-right"
      data-aos-offset="100"
      data-aos-easing="ease-in-sine">
-            <Image  borderRadius='50%' boxSize={['300px','300px','300px','400px','450px']} src='images/ra.jpg' bg="#ffff"   alt='rahul' />
+            <Image  borderRadius='50%'  boxSize={['300px','300px','300px','400px','450px']} src='images/rahul.png'  bg='#1da1f2'  alt='rahul' />
             </Box>
             </Center>
 
@@ -515,7 +515,7 @@ export default function Home() {
           <Flex align="center" justify="center" mt="50px" gap={[2,4,4,4]}>
             <Heading color="#fbfbfb" className='talk' data-aos="zoom-in"> Let's</Heading>
             <Box border="2px solid #1da1f2" p="10px" borderRadius='50% '  data-aos="zoom-in-up">
-            <Image borderRadius='50%'  boxSize={['150px','150px','150px','200px','250px']} src='images/rahulraj.png' bg="#ffff"   alt='rahul' />
+            <Image borderRadius='50%'  boxSize={['150px','150px','150px','200px','250px']} src='images/rahul.png'  bg='#1da1f2'   alt='rahul' />
             </Box>
             
             <Heading color="#fbfbfb" className='talk' data-aos="zoom-in">Talk</Heading>
