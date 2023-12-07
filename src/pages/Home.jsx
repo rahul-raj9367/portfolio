@@ -632,7 +632,7 @@ export default function Home() {
         {/* Mobile  */}
         <Center>
           <Flex display={["flex","flex","none","none"]} gap={[4,4,8,10,20]}>
-          <a href="mailto: rahulselvan0810@gmail.com" target="_blank"><Flex gap={1}>
+          <a href="mailto: rahulselvan0810@gmail.com" target="_blank"><Flex gap={2}>
               <Icon as={SiGmail} boxSize={6} color="#1da1f2"/> 
               <Text color="#fbfbfb">rahulselvan0810@gmail.com</Text>
             </Flex></a>
@@ -646,7 +646,7 @@ export default function Home() {
 
           <Center>
             
-          <a href="https://wa.me/9367747439"  target="_blank"><Flex mt="20px"  display={["flex","flex","none","none"]} gap={[4,4,8,10,20]}>
+          <a href="https://wa.me/9367747439"  target="_blank"><Flex mt="20px"  display={["flex","flex","none","none"]} gap={[2,4,8,10,20]}>
             <Icon as={BsWhatsapp} boxSize={6} color="#1da1f2"/> 
             <Text color="#fbfbfb">Whatsapp</Text>
 
