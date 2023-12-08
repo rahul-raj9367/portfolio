@@ -266,7 +266,7 @@ export default function Home() {
                   <Icon as={MdSettings} boxSize={[90]} color="#1da1f2"/>
                     <Stack mt='3' spacing='3'>
                       <Heading size={['lg','lg','lg','md','lg']} color="#fbfbfb">Deep Skill Set</Heading>
-                      <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
+                      <Text color="#fbfbfb" fontSize={["md","lg","lg","lg"]}>
                       Web developer with deep skills in creating efficient, stunning websites. Passionate about turning ideas into online experiences.
                       </Text>
                     </Stack>
@@ -284,8 +284,8 @@ export default function Home() {
                   <Icon as={PiSuitcaseSimpleLight} boxSize={90} color="#1da1f2" />
                     <Stack mt='3' spacing='3'>
                       <Heading size={['lg','lg','lg','md','lg']} color="#fbfbfb">Creative Work</Heading>
-                      <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
-                      I specialize in creating creative and unique user experiences, bringing innovation and flair to my work <br />
+                      <Text color="#fbfbfb" fontSize={["md","lg","lg","lg"]}>
+                      I specialize in creating creative and unique user experiences, bringing innovation and flair to my work <br /> <br />
                       </Text>
                     </Stack>
                   </CardBody>
@@ -303,7 +303,7 @@ export default function Home() {
                   <Icon as={LuHeartHandshake} boxSize={90} color="#1da1f2"/>
                     <Stack mt='3' spacing='3'>
                       <Heading size={['lg','lg','lg','md','lg']} color="#fbfbfb">Strong Dedication</Heading>
-                      <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
+                      <Text color="#fbfbfb" fontSize={["md","lg","lg","lg"]}>
                       I possess a strong dedication to my work, consistently striving for excellence and achieving goals with unwavering commitment
                       </Text>
                     </Stack>
