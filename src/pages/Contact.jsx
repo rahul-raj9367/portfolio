@@ -116,6 +116,7 @@ export default function Contact() {
                           placeholder='Please enter name'
                           value={formData.name}
                           onChange={handleInputChange}
+                          autoComplete="off"
                       />
                 </FormControl>
 
@@ -128,6 +129,7 @@ export default function Contact() {
                     placeholder='Please enter email'
                     value={formData.email}
                     onChange={handleInputChange}
+                    autoComplete="off"
                   />
                 </FormControl>
 
@@ -139,6 +141,7 @@ export default function Contact() {
                     name="mobileNumber"
                     value={formData.mobileNumber}
                     onChange={handleInputChange}
+                    autoComplete="off"
                   />
                 </FormControl>
 
@@ -148,7 +151,10 @@ export default function Contact() {
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
-                   placeholder='Plese enter your message' />
+                   placeholder='Plese enter your message'
+                   autoComplete="off"
+                   />
+                   
                 </FormControl>
 
                 <Box mt="20px">
