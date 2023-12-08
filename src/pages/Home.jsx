@@ -261,7 +261,7 @@ export default function Home() {
             <Center>
               <GridItem w={["100%","100%","100%","80%","100%"]} h="100%"  data-aos="fade-down" data-aos-delay="100">
               <Center>
-                <Card maxW={['xs','sm']} bg="#131313">
+                <Card maxW={['xs','sm','lg','sm']} bg="#131313">
                   <CardBody>
                   <Icon as={MdSettings} boxSize={[90]} color="#1da1f2"/>
                     <Stack mt='3' spacing='3'>
@@ -279,12 +279,12 @@ export default function Home() {
               <Center>
               <GridItem w={["100%","100%","100%","80%","100%"]}  data-aos="fade-down" data-aos-delay="100">
                 <Center>
-                <Card  maxW={['xs','sm',]} bg="#131313">
+                <Card maxW={['xs','sm','lg','sm']} bg="#131313">
                   <CardBody>
                   <Icon as={PiSuitcaseSimpleLight} boxSize={90} color="#1da1f2" />
                     <Stack mt='3' spacing='3'>
                       <Heading size='md' color="#fbfbfb">Creative Work</Heading>
-                      <Text color="#fbfbfb" fontSize={["sm","md","md","md"]}>
+                      <Text color="#fbfbfb" fontSize={["sm","md","lg","md"]}>
                       I specialize in creating creative and unique user experiences, bringing innovation and flair to my work <br />
                       </Text>
                     </Stack>
@@ -298,7 +298,7 @@ export default function Home() {
               <Center>
               <GridItem w={["100%","100%","100%","80%","100%"]} h="100%"  data-aos="fade-down" data-aos-delay="100">
                 <Center>
-                <Card  maxW={['xs','sm']} bg="#131313">
+                <Card  maxW={['xs','sm','lg','sm']} bg="#131313">
                   <CardBody>
                   <Icon as={LuHeartHandshake} boxSize={90} color="#1da1f2"/>
                     <Stack mt='3' spacing='3'>
