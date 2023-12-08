@@ -71,7 +71,7 @@ export default function Home() {
     <Box bg="#000000" height="100%" >
 
     {/* Navbar and WEB DEVELOPER */}
-    <Box className='NAV'  position="relative" pt={["55px","55px","0px"]} mb={["120px","80px","80px","50px"]}>
+    <Box className='NAV'  position="relative" pt={["55px","55px","0px"]} mb={["130px","80px","80px","50px"]}>
       
 
     <Flex  pt="20px" className='NAVV' as="nav" >
@@ -236,7 +236,7 @@ export default function Home() {
 
             
     </Flex>
-          <Text position="absolute" color="#fbfbfb" display={["none","none","flex","flex"]} width={["230px","200px","190px","250px"]}  left={["24%","10%","9%","12%","17%","20%"]} top={["103%","70%","38%","37%","40%"]}  fontSize={["lg","lg","lg","lg"]} lineHeight="22px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
+          <Text position="absolute" color="#fbfbfb" display={["none","none","flex","flex"]} width={["230px","200px","190px","250px"]}  left={["24%","10%","9%","12%","17%","20%"]} top={["103%","70%","35%","35%","38%"]}  fontSize={["lg","lg","xl","xl"]} lineHeight="22px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
           
           <Heading position="absolute" className='web'   color="#fbfbfb" left={["1%","9%","9%","12%","17%","20%"]} top={["66%","66%","55%","50%"]} zIndex={90}>WEB</Heading>
           <Heading position="absolute" className='web'  color="#fbfbfb" left={["21%","25%","27%","27%","33%"]} top={["80%","80%","78%","78%","76%"]} zIndex={90}>DEVELOPER</Heading>
@@ -247,7 +247,7 @@ export default function Home() {
             </Center>
           </Box>
           <Center>
-              <Text  position="absolute" mt="120px" color="#fbfbfb" display={["flex","flex","none","none"]} width={["60%"]}  fontSize={["lg","md","md","md"]} lineHeight="24px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
+              <Text  position="absolute" mt="120px" color="#fbfbfb" display={["flex","flex","none","none"]} width={["60%"]}  fontSize={["lg","lg","lg","md"]} lineHeight="24px" zIndex={99}>A dedicated full-stack developer passionate about creating seamless and powerful web applications</Text>
           </Center>
 
 
@@ -266,7 +266,7 @@ export default function Home() {
                   <Icon as={MdSettings} boxSize={[90]} color="#1da1f2"/>
                     <Stack mt='3' spacing='3'>
                       <Heading size={['lg','lg','lg','md','lg']} color="#fbfbfb">Deep Skill Set</Heading>
-                      <Text color="#fbfbfb" fontSize={["md","lg","lg","lg"]}>
+                      <Text color="#fbfbfb" fontSize={["lg","lg","xl","xl"]}>
                       Web developer with deep skills in creating efficient, stunning websites. Passionate about turning ideas into online experiences.
                       </Text>
                     </Stack>
@@ -282,10 +282,10 @@ export default function Home() {
                 <Card maxW={['xs','sm','lg','sm']} bg="#131313">
                   <CardBody>
                   <Icon as={PiSuitcaseSimpleLight} boxSize={90} color="#1da1f2" />
-                    <Stack mt='3' spacing='3'>
+                    <Stack mt='3' spacing='4' >
                       <Heading size={['lg','lg','lg','md','lg']} color="#fbfbfb">Creative Work</Heading>
-                      <Text color="#fbfbfb" fontSize={["md","lg","lg","lg"]}>
-                      I specialize in creating creative and unique user experiences, bringing innovation and flair to my work <br /> <br />
+                      <Text color="#fbfbfb" fontSize={["lg","lg","xl","xl"]} mb="20px">
+                      I specialize in creating creative and unique user experiences, bringing innovation and flair to my work 
                       </Text>
                     </Stack>
                   </CardBody>
@@ -303,7 +303,7 @@ export default function Home() {
                   <Icon as={LuHeartHandshake} boxSize={90} color="#1da1f2"/>
                     <Stack mt='3' spacing='3'>
                       <Heading size={['lg','lg','lg','md','lg']} color="#fbfbfb">Strong Dedication</Heading>
-                      <Text color="#fbfbfb" fontSize={["md","lg","lg","lg"]}>
+                      <Text color="#fbfbfb" fontSize={["lg","lg","xl","xl"]}>
                       I possess a strong dedication to my work, consistently striving for excellence and achieving goals with unwavering commitment
                       </Text>
                     </Stack>
