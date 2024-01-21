@@ -18,6 +18,7 @@ import { DiMongodb } from "react-icons/di";
 import { FaLinkedin } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
+import { FcProcess } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
 import { Icon } from '@chakra-ui/react'
@@ -69,9 +70,12 @@ export default function Home() {
 
     const [displayy,ChangeDisplayy]=useState('none')
 
-    const [loading, setLoading] = useState(true);
+    
 
     //Loading 
+    const [loading, setLoading] = useState(true);
+
+
     useEffect(() => {
       const timeout = setTimeout(() => {
         setLoading(false);
@@ -520,12 +524,23 @@ export default function Home() {
                   </Flex>
                     </Box>
                 </a>
+
+                <a href="https://github.com/rahul-raj9367/100-Days-Problem-Solving" target='_blank'><Box p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                  <Flex flexDir="column" align="center"  >
+                  <Heading mt="10px" fontSize="lg">DSA 100 Days Coding Challenge </Heading>
+                  <Icon  mt="20px" mb="20px" as={FcProcess } boxSize={180}  color="#1da1f2"/>
+                  </Flex>
+                    </Box>
+                </a>
                 
             </Box>
   
             <Center>
             <a href="https://www.youtube.com/channel/UC2NvX4WgLdhHCrLAPdUwVLg" target='_blank'><Button mt="50px" rightIcon={<ArrowForwardIcon size="20px" />} _hover={{ bg:'#1da1f2', color: 'black' }} fontSize="xl"  bg='#1da1f2' p="25px" pl="25px" pr="15px" borderRadius="50px">See More</Button></a>
             </Center>
+  
+
+
   
   
             {/*100 Days Coding Complete */}
