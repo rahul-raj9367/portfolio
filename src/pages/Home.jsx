@@ -28,7 +28,9 @@ import { FaYoutube } from "react-icons/fa";
 import { MdSettings } from 'react-icons/md'
 import { NavLink,Link } from "react-router-dom";
 import { GrInstagram } from "react-icons/gr";
-import {  ArrowUpIcon,HamburgerIcon,CloseIcon } from '@chakra-ui/icons'
+import {  ArrowUpIcon,HamburgerIcon,CloseIcon } from '@chakra-ui/icons';
+import { TbBrandLeetcode } from "react-icons/tb";
+import { SiGeeksforgeeks } from "react-icons/si";
 import '../style.css'
 import { useState ,useEffect} from "react";
 import Aos from 'aos';
@@ -525,13 +527,17 @@ export default function Home() {
                     </Box>
                 </a>
 
-                <a href="https://github.com/rahul-raj9367/100-Days-Problem-Solving" target='_blank'><Box p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                <Box p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                   <Flex flexDir="column" align="center"  >
                   <Heading mt="10px" fontSize="lg">DSA 100 Days Coding Challenge </Heading>
-                  <Icon  mt="20px" mb="20px" as={FcProcess } boxSize={180}  color="#1da1f2"/>
+                  <a href="https://github.com/rahul-raj9367/100-Days-Problem-Solving" target='_blank'><Icon  mt="20px" mb="10px" as={FcProcess } boxSize={180}  color="#1da1f2"/></a>
+                  <Flex gap={10}>
+                  <a href="https://leetcode.com/rahul_raj9367/" target='_blank'><Icon as={TbBrandLeetcode} boxSize={50} color="orange"></Icon></a>
+                  <a href="https://auth.geeksforgeeks.org/user/rahulselkusd/" target='_blank'><Icon as={SiGeeksforgeeks} boxSize={50} color="#008000"></Icon></a>
+
+                  </Flex>
                   </Flex>
                     </Box>
-                </a>
                 
             </Box>
   
