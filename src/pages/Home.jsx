@@ -799,7 +799,10 @@ export default function Home() {
         
 
         {/* chat bot */}
-        <Chat />
+        <Box zIndex={9999}>
+          <Chat />
+
+        </Box>
             
   
         </Box>
