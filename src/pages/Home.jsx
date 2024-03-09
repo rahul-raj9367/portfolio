@@ -460,7 +460,7 @@ export default function Home() {
                 </Grid>
 
                 <Grid  templateColumns={['repeat(2, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)','repeat(4, 1fr)']}  pt="40px"  mr={["0px","0px","0px","0px","100px"]} ml={["0px","0px","0px","0px","100px"]}>
-                  <GridItem w="100%" h="100%" mt={["40px","40px","0px"]} data-aos="zoom-in-up" data-aos-delay="100">
+                  <GridItem w="100%" h="100%" mt={["0px","0px","0px"]} data-aos="zoom-in-up" data-aos-delay="100">
                     <Center>
                       <Icon as={SiTypescript} boxSize={[100,100,100,110,150]}  color="#2d79c7"/>
                     </Center>
