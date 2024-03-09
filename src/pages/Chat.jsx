@@ -30,7 +30,7 @@ export default function Chat() {
     },
     {
       name: 'Instagram Clone',
-      description: 'Created a clone of Instagram. Allows users to create accounts, post photos, and interact with other users.',
+      description: 'Created a clone of Instagram to showcase post and Instagram UI with responsive design.',
       link: 'https://rahul-raj9367.github.io/instagram-clone/',
     }
   ];
