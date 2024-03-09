@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex, Heading,List,ListItem,Text,Button,Center,Image, Divider,IconButton,Spinner} from "@chakra-ui/react"
+import { Box, Flex, Heading,List,ListItem,Text,Button,Center,Image, Divider,IconButton,Spinner,theme,ChakraProvider} from "@chakra-ui/react"
 import { Card, CardHeader, CardBody, Grid,GridItem,Stack} from '@chakra-ui/react'
 import { ArrowForwardIcon} from '@chakra-ui/icons'
 import { PiSuitcaseSimpleLight } from "react-icons/pi";
@@ -30,6 +30,7 @@ import { NavLink,Link } from "react-router-dom";
 import { GrInstagram } from "react-icons/gr";
 import {  ArrowUpIcon,HamburgerIcon,CloseIcon } from '@chakra-ui/icons';
 import { TbBrandLeetcode } from "react-icons/tb";
+import { FaGitAlt } from "react-icons/fa";
 import { SiGeeksforgeeks } from "react-icons/si";
 import '../style.css'
 import { useState ,useEffect} from "react";
@@ -37,6 +38,9 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import Loading from './Loading';
 import Typewriter from 'typewriter-effect'
+import ChatBot from 'react-simple-chatbot';
+import { ThemeProvider } from 'styled-components';
+import Chat from './Chat';
 
 
 
@@ -63,12 +67,12 @@ export default function Home() {
     }, []);
 
     // Scrolls to the top of the page
-    const scrollToTop = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth', 
-      });
-    };
+    // const scrollToTop = () => {
+    //   window.scrollTo({
+    //     top: 0,
+    //     behavior: 'smooth', 
+    //   });
+    // };
 
     const [displayy,ChangeDisplayy]=useState('none')
 
@@ -84,6 +88,32 @@ export default function Home() {
       }, 1500);
       return () => clearTimeout(timeout);
     }, []);
+
+    // chat bot
+  //   const [isChatOpen, setIsChatOpen] = useState(false);
+
+  // const toggleChat = () => {
+  //   setIsChatOpen(!isChatOpen);
+  // };
+
+  // const handleCloseChat = () => {
+  //   setIsChatOpen(false);
+  // };
+
+  
+
+
+  // const theme = {
+  //   background: '#f5f8fb',
+  //   headerBgColor: '#1da1f2',
+  //   headerFontColor: '#fff',
+  //   headerFontSize: '20px',
+  //   botBubbleColor: '#1da1f2',
+  //   botFontColor: '#ffff',
+  //   botFontSize: '20px',
+  //   userBubbleColor: '#fff',
+  //   userFontColor: '#4a4a4a',
+  // };
   
 
   return (
@@ -341,6 +371,7 @@ export default function Home() {
               </Grid>
   
               {/* Who Loves To Code */}
+              {/* Skills */}
               <Box id="Skills">
   
               </Box>
@@ -408,14 +439,27 @@ export default function Home() {
                 <Grid  templateColumns={['repeat(2, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)','repeat(4, 1fr)']}  pt="40px"  mr={["0px","0px","0px","0px","100px"]} ml={["0px","0px","0px","0px","100px"]}>
                 <GridItem w="100%" h="100%" data-aos="zoom-in-up" data-aos-delay="100">
                     <Center>
-                      <Icon as={SiChakraui} boxSize={[100,100,100,110,150]}  color="#35c7bb"/>
+                      <Icon as={FaJava} boxSize={[100,100,100,110,150]}  color="#e44d26"/>
                     </Center>
                   </GridItem>
                   <GridItem w="100%" h="100%" data-aos="zoom-in-up" data-aos-delay="100">
                     <Center>
-                      <Icon as={FaJava} boxSize={[100,100,100,110,150]}  color="#e44d26"/>
+                      <Icon as={FaGithub} boxSize={[100,100,100,110,150]}  color="black"/>
                     </Center>
                   </GridItem>
+                  <GridItem w="100%" h="100%" mt={["40px","40px","0px"]} data-aos="zoom-in-up" data-aos-delay="100">
+                    <Center>
+                      <Icon as={FaGitAlt} boxSize={[100,100,100,110,150]}  color="#e44d26"/>
+                    </Center>
+                  </GridItem>
+                  <GridItem w="100%" h="100%" mt={["40px","40px","0px"]} data-aos="zoom-in-up" data-aos-delay="100">
+                    <Center>
+                      <Icon as={SiChakraui} boxSize={[100,100,100,110,150]}  color="#35c7bb"/>
+                    </Center>
+                  </GridItem>
+                </Grid>
+
+                <Grid  templateColumns={['repeat(2, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)','repeat(4, 1fr)']}  pt="40px"  mr={["0px","0px","0px","0px","100px"]} ml={["0px","0px","0px","0px","100px"]}>
                   <GridItem w="100%" h="100%" mt={["40px","40px","0px"]} data-aos="zoom-in-up" data-aos-delay="100">
                     <Center>
                       <Icon as={SiTypescript} boxSize={[100,100,100,110,150]}  color="#2d79c7"/>
@@ -752,19 +796,10 @@ export default function Home() {
           
            
         </Box>
-  
-        <Box  display={display} position="fixed" right={["15px","15px"]} bottom={["15px","30px"]} cursor="pointer" >
-        <IconButton 
-        onClick={scrollToTop}
-        boxSize={[8]}
-        p="25px"
-        borderRadius="70%"
-        bg="#1da1f2"
-        _hover={{ bg:'#1da1f2', color: 'black' }}
-        display={["none","none","flex","flex"]}
-        icon={<ArrowUpIcon  boxSize={[8,8,8,8,12]}  color="black" />}
-        ></IconButton>
-      </Box>
+        
+
+        {/* chat bot */}
+        <Chat />
             
   
         </Box>
