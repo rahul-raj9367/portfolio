@@ -6,6 +6,7 @@ import { CheckIcon } from '@chakra-ui/icons';
 
 export default function Chat() {
   const theme = {
+    zIndex: 999,
     background: '#fff',
     headerBgColor: '#1da1f2',
     headerFontColor: '#fff',
@@ -207,7 +208,7 @@ const ResumeDownload = () => (
   
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} >
       <ChatBot
         headerTitle="Rahul Raj (Chat_Bot)"
         speechSynthesis={{ enable: false, lang: 'en' }}
