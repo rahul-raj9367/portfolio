@@ -33,38 +33,36 @@ export default function Contact() {
     message: "",
   };
 
+  // State for form data and success alert
   const [formData, setFormData] = useState(initialFormData);
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
 
+  // Handle form input change
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
+  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      // Submit form data
       const response = await axios.post("https://portfolioback-u0cm.onrender.com/submit-form", formData);
       console.log("Form submitted successfully:", response.data);
-      setShowSuccessAlert(true); // Show success alert after successful submission
-      setFormData(initialFormData); // Reset form data
+
+      // Show success alert
+      setShowSuccessAlert(true);
+      setTimeout(() => {
+        setShowSuccessAlert(false);
+      }, 3000);
     } catch (error) {
       console.error("Error submitting form:", error);
-      // Handle form submission error if needed
+    } finally {
+      // Reset form data after submission
+      setFormData(initialFormData);
     }
   };
-
-  useEffect(() => {
-    if (showSuccessAlert) {
-      // Hide the success alert after 5 seconds
-      const timeoutId = setTimeout(() => {
-        setShowSuccessAlert(false);
-      }, 5000);
-
-      // Clean up function to clear timeout when component unmounts or when success alert is hidden
-      return () => clearTimeout(timeoutId);
-    }
-  }, [showSuccessAlert]);
 
   useEffect(() => {
     document.title = 'Contact Us';
