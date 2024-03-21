@@ -34,6 +34,7 @@ export default function Contact() {
   };
 
   const [formData, setFormData] = useState(initialFormData);
+  const [showSuccessAlert, setShowSuccessAlert] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -45,35 +46,27 @@ export default function Contact() {
     try {
       const response = await axios.post("https://portfolioback-u0cm.onrender.com/submit-form", formData);
       console.log("Form submitted successfully:", response.data);
-      
-      // If you want to show a success alert after form submission
-      setIsFormSubmitted(true);
-      setShowSuccessAlert(true);
+      setShowSuccessAlert(true); // Show success alert after successful submission
+      setFormData(initialFormData); // Reset form data
     } catch (error) {
       console.error("Error submitting form:", error);
-      // If you want to handle errors, you can set an error state here
+      // Handle form submission error if needed
     }
   };
-  
 
+  useEffect(() => {
+    if (showSuccessAlert) {
+      // Hide the success alert after 5 seconds
+      const timeoutId = setTimeout(() => {
+        setShowSuccessAlert(false);
+      }, 5000);
 
-   //Alert 
-   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
-   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
- 
-   useEffect(() => {
-     if (isFormSubmitted) {
-       // Reset the form data
-       setFormData(initialFormData);
-   
-       // Hide the success alert after a delay
-       setTimeout(() => {
-         setShowSuccessAlert(false);
-       }, 5000); // Hide the alert after 5 seconds
-     }
-   }, [isFormSubmitted]);
+      // Clean up function to clear timeout when component unmounts or when success alert is hidden
+      return () => clearTimeout(timeoutId);
+    }
+  }, [showSuccessAlert]);
 
-   useEffect(() => {
+  useEffect(() => {
     document.title = 'Contact Us';
   }, []);
 
