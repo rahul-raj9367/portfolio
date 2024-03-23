@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/portfolio/",
   build: {
     chunkSizeWarningLimit: 500 * 1024,
-    outDir: 'docs', // Change the output directory to 'docs'
+    outDir: 'dist', // Change the output directory to 'docs'
   },
   server: {
     host: '0.0.0.0',
