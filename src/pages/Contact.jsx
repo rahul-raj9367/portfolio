@@ -33,25 +33,21 @@ export default function Contact() {
     message: "",
   };
 
-  // State for form data and success alert
   const [formData, setFormData] = useState(initialFormData);
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+  const [isFormSubmitting, setIsFormSubmitting] = useState(false);
 
-  // Handle form input change
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsFormSubmitting(true);
     try {
-      // Submit form data
-      const response = await axios.post("https://portfolioback-u0cm.onrender.com/submit-form", formData);
+      const response = await axios.post("https://mernback-esoz.onrender.com/submit-form", formData);
       console.log("Form submitted successfully:", response.data);
-
-      // Show success alert
       setShowSuccessAlert(true);
       setTimeout(() => {
         setShowSuccessAlert(false);
@@ -59,7 +55,7 @@ export default function Contact() {
     } catch (error) {
       console.error("Error submitting form:", error);
     } finally {
-      // Reset form data after submission
+      setIsFormSubmitting(false);
       setFormData(initialFormData);
     }
   };

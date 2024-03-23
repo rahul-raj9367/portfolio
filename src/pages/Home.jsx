@@ -42,8 +42,6 @@ import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 import Chat from './Chat';
 
-
-
 export default function Home() {
 
   useEffect(()=>{
