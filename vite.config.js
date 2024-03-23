@@ -1,15 +1,15 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react-swc';
+import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:"/portfolio/",
+  base: "/portfolio/",
   build: {
-    chunkSizeWarningLimit: 500 * 1024,// Set your custom threshold here (500 KB in this example)
-    outDir: 'dist', // Check that 'dist' is specified as the output directory 
+    chunkSizeWarningLimit: 500 * 1024,
+    outDir: 'docs', // Change the output directory to 'docs'
   },
   server: {
     host: '0.0.0.0',
   },
-})
+});
