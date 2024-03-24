@@ -62,7 +62,7 @@ const LinkedInMessage = (props) => (
 const ResumeDownload = () => (
   <Box>
     <Text>You can download my resume here:</Text>
-    <Link  href="pdf/Resume.pdf"
+    <Link  href="pdf/RahulRaj-Resume.pdf"
     download
     color="#1da1f2"
     fontWeight="bold"
