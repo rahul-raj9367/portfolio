@@ -87,10 +87,10 @@ export default function Contact() {
                 height='200px'
                 >
                 <AlertIcon boxSize='40px' mr={0} />
-                  <AlertTitle mt={4} mb={1} fontSize='lg'>
+                  <AlertTitle mt={4} mb={1} fontSize='xl'>
                     Successfully submitted!
                   </AlertTitle>
-                  <AlertDescription maxWidth='sm'>
+                  <AlertDescription maxWidth='lg'>
                     Thanks for submitting your submission.
                   </AlertDescription>
                 </Alert>
@@ -140,7 +140,7 @@ export default function Contact() {
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
-                   placeholder='Plese enter your message'
+                   placeholder='Please enter your message'
                    autoComplete="off"
                    />
                    

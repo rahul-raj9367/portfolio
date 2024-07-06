@@ -34,13 +34,15 @@ import { FaGitAlt } from "react-icons/fa";
 import { SiGeeksforgeeks } from "react-icons/si";
 import '../style.css'
 import { useState ,useEffect} from "react";
-import Aos from 'aos';
-import 'aos/dist/aos.css'
+
 import Loading from './Loading';
 import Typewriter from 'typewriter-effect'
 import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 import Chat from './Chat';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 export default function Home() {
 
