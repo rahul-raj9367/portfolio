@@ -19,6 +19,11 @@ export default function Chat() {
 
   const projects = [
     {
+      name: 'Muthumani Pickles',
+      description: 'Developed a website for Muthumani Pickles showcasing our own products Pickles and Kasthuri Manjal Powder.',
+      link: 'https://muthumanipickles.in/',
+    },
+    {
       name: 'Tatvika Tattoo',
       description: 'Freelance project for Tatvika Tattoo. Created a website showcasing tattoo designs and services.',
       link: 'https://rahul-raj9367.github.io/tatvika-tattoo/',
