@@ -532,37 +532,45 @@ export default function Home() {
           
             <Box display="flex"  flexDir={["column","column","column","row","row"]} alignItems="center" justifyContent="center" gap={[5,,,5,20]} mt="50px">
                 <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                 <a href="https://muthumanipickles.in/" target='_blank'><Image src='images/muthumani.png'  alt='tattoo' height={['230px']} width={['380px']} /></a> 
+                </Box>
+
+                <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                  <a href="https://rahul-raj9367.github.io/tatvika-tattoo/" target='_blank'><Image src='images/tatvika.jpeg'  alt='tattoo' height={['230px']} width={['380px']} /></a> 
                 </Box>
                
                 <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]}  p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 <a href="https://rahul-raj9367.github.io/my-vue-app/" target='_blank'> <Image src='images/rice.jpeg'  alt='tattoo' height={['230px']} width={['380px']} /></a> 
                 </Box>
-                <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-            <a href="https://rahul-raj9367.github.io/instagram-clone/" target='_blank'><Image src='images/insta.jpeg'  alt='tattoo' height={['230px']} width={['380px']} /></a> 
-                </Box>
+                
                 
             </Box>
   
             <Box display="flex"  flexDir={["column","column","column","row","row"]} alignItems="center" justifyContent="center" gap={[5,,,5,20]} mt="50px">
+                <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                      <a href="https://rahul-raj9367.github.io/instagram-clone/" target='_blank'><Image src='images/insta.jpeg'  alt='tattoo' height={['230px']} width={['380px']} /></a> 
+                </Box>
                 <Box p="15px" ml={["15px","15px","0px"]} mr={["15px","15px","0px"]}  border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 <a href="https://rahul-raj9367.github.io/Home-Appliances/" target='_blank'> <Image src='images/home.jpeg'  alt='tattoo' height={['230px']} width={['380px']} /></a> 
                 </Box>
                 <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 <a href="https://rahul-raj9367.github.io/HOME_APPLIANCES/" target='_blank'><Image src='images/card.jpeg'  alt='tattoo' height={['230px']} width={['380px']} /></a> 
                 </Box>
-                <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                <a href="https://rahul-raj9367.github.io/Electronics/" target='_blank'> <Image src='images/electro.jpeg'  alt='tattoo' height={['230px']} width={['380px']} /></a> 
-            </Box>
+                
                 
                 
                 
             </Box>
   
             <Box display="flex"   flexDir={["column","column","column","row","row"]} alignItems="center" justifyContent="center" gap={[5,,,5,20]} mt="50px">
-              <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px"  border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                <a href="https://rahul-raj9367.github.io/portfolioo/Resume.html" target='_blank'><Image src='images/resume.jpeg'  alt='tattoo' height={['430px']} width={['380px']} /></a> 
+                <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                  <a href="https://rahul-raj9367.github.io/Electronics/" target='_blank'> <Image src='images/electro.jpeg'  alt='tattoo' height={['230px']} width={['380px']} /></a> 
                 </Box>
+
+                <Box ml={["15px","15px","0px"]} mr={["15px","15px","0px"]} p="15px"  border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                  <a href="https://rahul-raj9367.github.io/portfolioo/Resume.html" target='_blank'><Image src='images/resume.jpeg'  alt='tattoo' height={['430px']} width={['380px']} /></a> 
+                </Box>
+
                 <a href="https://github.com/rahul-raj9367/Problem-Solving/tree/main" target='_blank'><Box p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                   <Flex flexDir="column" align="center"  >
                   <Heading mt="10px" fontSize="lg">100 Days Coding Completed</Heading>
@@ -571,7 +579,13 @@ export default function Home() {
                     </Box>
                 </a>
 
-                <Box p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                
+                
+            </Box>
+
+
+            <Box display="flex"   flexDir={["column","column","column","row","row"]} alignItems="center" justifyContent="center" gap={[5,,,5,20]} mt="50px">
+            <Box p="15px" border="2px solid black" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                   <Flex flexDir="column" align="center"  >
                   <Heading mt="10px" fontSize="lg">DSA 100 Days Coding Challenge </Heading>
                   <a href="https://github.com/rahul-raj9367/100-Days-Problem-Solving" target='_blank'><Icon  mt="20px" mb="10px" as={FcProcess } boxSize={180}  color="#1da1f2"/></a>
@@ -581,10 +595,10 @@ export default function Home() {
 
                   </Flex>
                   </Flex>
-                    </Box>
-                
             </Box>
-  
+            </Box>    
+            
+
             <Center>
             <a href="https://www.youtube.com/channel/UC2NvX4WgLdhHCrLAPdUwVLg" target='_blank'><Button mt="50px" rightIcon={<ArrowForwardIcon size="20px" />} _hover={{ bg:'#1da1f2', color: 'black' }} fontSize="xl"  bg='#1da1f2' p="25px" pl="25px" pr="15px" borderRadius="50px">See More</Button></a>
             </Center>
